@@ -5,11 +5,11 @@
 	"version": "1.0",
 	"content_scripts": [{
         "js": ["contentscript.js"],
-        "matches": ["http://localhost:8080/*"]
+        "matches": ["http://game.granbluefantasy.jp/**"]
     }],
 	"permissions": [
 		"clipboardRead",
 		"activeTab",
-		"http://localhost:8080/*"
+		"http://game.granbluefantasy.jp/**"
 	]
 }

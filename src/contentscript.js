@@ -1,5 +1,5 @@
 document.addEventListener('click', function() {
-	var raid = document.getElementById('raidId'); //To replace
+	var raid = document.querySelector('.frm-battle-key');
 	if(raid && raid.value === '') {
 		raid.focus();
 		document.execCommand('paste');
