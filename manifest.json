@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Granblue Raid Helper",
+	"name": "Granblue Raid Auto Paste",
 	"description": "This extension will insert the first item in the clipboard when on Granblue input raid screen.",
 	"version": "1.0",
 	"content_scripts": [{
